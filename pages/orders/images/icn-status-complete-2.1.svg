@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>12AEBFF9-88FF-44A0-8D74-DB82E7D12240</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Checkout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="4.0-Checkout---States" transform="translate(-273.000000, -1501.000000)" stroke="#E85826" stroke-width="2">
+            <g id="icn_StatusActive2" transform="translate(274.000000, 1502.000000)">
+                <path d="M55,110 C85.3756612,110 110,85.3756612 110,55 C110,24.6243388 85.3756612,0 55,0 C24.6243388,0 0,24.6243388 0,55 C0,85.3756612 24.6243388,110 55,110 Z" id="Oval-119-Copy-3" fill="#FFFFFF"></path>
+                <path d="M30.0791,68 C31.4631,70.389 34.0411,72 37.0001,72 C39.9591,72 42.5371,70.389 43.9211,68" id="Stroke-1" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M34.9844,67.4521 C35.5784,67.8001 36.2684,68.0001 37.0064,68.0001 C37.7324,68.0001 38.4134,67.8061 39.0004,67.4691" id="Stroke-3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M69.2891,65.5459 C69.8931,66.9869 71.3181,67.9999 72.9791,67.9999 C75.1881,67.9999 76.9791,66.2089 76.9791,63.9999 C76.9791,63.6479 76.9341,63.3079 76.8481,62.9819" id="Stroke-5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M65.4941,66.8291 C66.9061,70.5781 70.9321,72.7551 74.9141,71.7631 C79.2001,70.6941 81.8091,66.3521 80.7411,62.0651" id="Stroke-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M37,52 C30.375,52 25,57.372 25,64 L52,64 L64.979,48 L63.979,40 L60.979,44" id="Stroke-9" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M46.3281,60.0293 C45.7361,58.3403 44.7771,56.8253 43.5471,55.5773" id="Stroke-11" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50,46 L33,46 C31.895,46 31,46.895 31,48 L31,50 C31,51.104 31.895,52 33,52 L50,52 C51.657,52 53,50.657 53,49 C53,47.343 51.657,46 50,46 L50,46 Z" id="Stroke-13" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M51,59 L49,52" id="Stroke-15" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M60.9795,32 L63.9795,36 L70.0005,36 C71.0005,36 71.4585,35 72.0005,35 C72.5425,35 73.0005,35.448 73.0005,36 L73.0005,40 C73.0005,40.552 72.6045,41 72.0005,41 C71.3955,41 71.0005,40 70.0005,40 L67.9795,40 L73.0005,52 C77.1875,52 80.8535,54.145 83.0005,57.395 L61.0005,64 C61.0005,58.775 64.3185,54.331 68.9795,52.684" id="Stroke-17" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M26,56 L28,56" id="Stroke-19" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M25,76.0024 L39,76.0024" id="Stroke-21" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M45,76.0024 L55,76.0024" id="Stroke-23" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M67,76.0024 L83,76.0024" id="Stroke-25" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M61,76.0024 L63,76.0024" id="Stroke-27" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Stroke-29" stroke-linecap="round" stroke-linejoin="round" points="25 64 52 64 64.979 48 63.979 40"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

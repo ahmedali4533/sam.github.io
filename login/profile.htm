@@ -1,0 +1,1428 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Analytics -->
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  
+  <link rel="stylesheet" type="text/css" href="../pages/menu/devices/mobile/menu.min.css?v=1639752661696">
+
+  <script>
+      window.google_tracking_id = "UA-56773424-4" ;
+      window.clevertap_key = "886-89W-644Z" ;
+      window.dataLayer = window.dataLayer || [];
+      window.fmStaticRoot = "/pages";
+      window.contactInfo = {
+          company_contact_email: "order@freshmenu.com",
+          company_contact_number: "080-4042-4242"
+      };
+      window.load_revx = ("false" === 'true') ? true : false;
+  	window.load_yandex = ("false" === 'true') ? true : false;
+      dataLayer.push({
+          'experimentID': "1003"
+      });
+      dataLayer.push({
+          'experimentName': "big_picture_layout"
+      });
+  </script>
+  <!-- End Google Analytics -->
+
+  <!--Start of Zendesk Chat Script
+  <script type="text/javascript">
+      window.$zopim||(function(d,s){var z=$zopim=function(c){
+          z._.push(c)},$=z.s=
+              d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+              _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+          $.src='https://v2.zopim.com/?4y5EGhjpMkH45U31sL35w78CoR8CULFI';z.t=+new Date;$.
+                  type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+  </script>
+  <script type="text/javascript">
+      $zopim(function() {
+          $zopim.livechat.button.setOffsetVerticalMobile(45);
+      });
+  </script>
+  End of Zendesk Chat Script-->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="description" content="Buy food online from FreshMenu. Choose from a wide range of Chinese food, Continental food, Mexican food and much more. Get your fresh food delivered at your doorstep from FreshMenu.">
+  <meta name="keywords" content="Order food online, Home delivered food, Buy food online, Chinese food, Continental food, Mexican food, Fresh food, Food Delivered">
+  <meta name="twitter:description" content="Order food online from FreshMenu and get fresh and tasty food delivered to you within 45 mins. All inclusive pricing and free home delivery. Online food delivery in Bangalore, Mumbai, Delhi, Gurgaon.">
+  <link rel="manifest" href="../manifest.json">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Order Food Online. Chef Made Fresh & Tasty Meals Home Delivered Fresh In 45 Mins.">
+  <meta property="og:description" content="Order food online from FreshMenu and get fresh and tasty food delivered to you within 45 mins. All inclusive pricing and free home delivery. Online food delivery in Bangalore, Mumbai, Delhi, Gurgaon.">
+  <meta property="og:url" content="https://freshmenu.com">
+  <meta property="og:image" content="/pages/common/images/logo.svg">
+  <meta property="og:site_name" content="FreshMenu">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta property="al:android:url" content="https://play.google.com/store/apps/details?id=com.freshmenu">
+  <meta property="al:android:package" content="com.freshmenu">
+  <meta property="al:android:app_name" content="FreshMenu">
+  <meta property="al:ios:url" content="https://itunes.apple.com/app/id957179182">
+  <meta property="al:ios:app_store_id" content="957179182">
+  <meta name="apple-itunes-app" content="app-id=957179182">
+  <meta property="al:ios:app_name" content="FreshMenu">
+
+  <title>Order food online. Get fresh home delivered food from FreshMenu.</title>
+  <!--<script src='//cdn.zarget.com/96841/149831.js' async></script>-->
+
+  <style type="text/css">
+    .login-screens {
+      display: none;
+      position: relative;
+    }    
+    .login-screens.display {
+      display: block;
+      padding: 0px;
+    }
+    .login-screens.display .content {
+      margin: 0px;
+    }
+  </style>
+
+</head>
+
+<body ng-controller="Main" id="mainController" ng-init="runLoginPage()">
+<script>
+/* Client-side Useful variables
+ * This is in ejs for we can use server side vars if needed.
+ * *********/
+window.fmDessertCatId   = 3;
+window.fmPizzaCatId     = 6;
+window.fmDessertMarkBlk = 4;
+window.fmPizzaMarkBlk   = 5;
+
+//window.fmImagebasePath1 = "//d12nlatdsuu5f7.cloudfront.net";
+//window.fmImagebasePath2 = "//d12nlatdsuu5f7.cloudfront.net";
+//window.fmImagebasePath3 = "//d5c8168f6vcjg.cloudfront.net";
+window.fmImagebasePath1 = "//d3gy1em549lxx2.cloudfront.net";
+window.fmImagebasePath2 = "//d3gy1em549lxx2.cloudfront.net";
+window.fmImagebasePath3 = "//d3gy1em549lxx2.cloudfront.net";
+window.fmImagebasePath4 = "//d3gy1em549lxx2.cloudfront.net";
+window.fmDefaultBanner  = "https://" + window.fmImagebasePath4 + "/83011f0f-eb4c-4a25-b7c2-9d5e06e503ce.jpg";
+window.fmDefaultBanners = ["https://s3-ap-southeast-1.amazonaws.com/foodvista.1/7c717ed8-730a-48f4-966b-f01643007273.jpg"];
+window.fmBrand          = "fm-";
+window.channel          = "WEBSITE"
+window.gp_auth_key      = "66768360438-37d46au5itvmgt4c3hidodsl1rnc0hg7.apps.googleusercontent.com";
+window.fbAppId          = "905917009499104";
+window.thirdPartyApp    = "";
+
+window.google_tracking_id = "UA-56773424-4" ;
+window.gtm_id = "GTM-5DGF3C";
+window.clevertap_key = "886-89W-644Z" ;
+window.dataLayer = window.dataLayer || [];
+window.contactInfo = {
+    company_contact_email: "order@freshmenu.com",
+    company_bulk_email: "bulkorders@freshmenu.com",
+    company_contact_number: "080-4042-4242"
+};
+
+
+
+/* 
+   We can have this config and rendering on serverside, 
+   we have this on client for when we move to spa 
+   this will be easier to scale 
+*/
+/*
+    OTHER DETAILS
+    akamai url: img.freshmenu.com/foodvista.1
+    Removed one cloud url for it was not working properly d2svrcf0qd2z7x.cloudfront.net
+*/
+/*      Index for header elements:-
+        1:  help
+        2:  profile
+        3:  freshclub
+        4:  freshmoney
+        5:  download app
+        6:  cart
+        7:  Location 
+
+        Index for userDropdown elements:-
+        1: Profile Details
+        2: Address Book
+        3: Freshmoney
+        4: Payment Methods
+        5: Favourties
+        6: Order History
+        7: Corporate Ordering
+        8: Logout
+
+        Index for third party handles:-
+        1: "Social logins"
+        2: "CouponOfferSection",
+        3: "Banners",
+        4: "freshmoney"
+        5: "Footer App Download Links"
+        6: "Blog link"
+        7: "corporate link"
+        8: "New User Sticky Banner"
+        9: "Promoted Content"
+       10: "App download top Banner"
+
+*/
+var fmShowElems = (function() {
+    var showElems = {
+        "WEBSITE": {
+            "brands": {
+                "fm-": {
+                    "faq": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "about": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "product": {
+                        "header": [3, 1, 2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ],
+                        "cities_in_location_popup": [
+                            "bengaluru",
+                            "mumbai",
+                            "new delhi",
+                            "gurgaon"
+                        ]
+                    },
+                    "filter": {
+                        "header": [3, 1, 2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ],
+                        "cities_in_location_popup": [
+                            "bengaluru",
+                            "mumbai",
+                            "new delhi",
+                            "gurgaon"
+                        ]
+                    },
+                    "404": {
+                        "header": [1]
+                    },
+                    "amazon-auto-pay": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "corporate-program": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "careers": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "checkout": {
+                        "header": [1],
+                        "userDropDownElements": [
+
+                        ],
+                        "contact": [
+                            "phone",
+                            "email"
+                        ]
+                    },
+                    "contest": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "corporate": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "bulk-order": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "culture": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "data-security-update": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "download-app": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "fresh-club": {
+                        "header": [1, 2, 4, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "freshmenu-checkout": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "referral-how-it-works": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "job-description": {
+                        "header": [1],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "jobs": {
+                        "header": [1],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "free-food": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "offers": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "order-created": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ],
+                        "contact": [
+                            "phone",
+                            "email"
+                        ]
+                    },
+                    "current-orders": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "past-orders": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "press": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "privacy-policy": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "profile": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ],
+                        "leftIndexElems": [
+                            "profile",
+                            "address",
+                            "freshmoney",
+                            "payment",
+                            "favourite"
+                        ]
+                    },
+                    "referafriend": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "referral-terms-and-conditions": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "resetPassword": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "terms-and-conditions": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "fresh-club-terms-and-conditions": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "corporate-terms-and-conditions": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "terms-and-conditions-amazon-echo": {
+                        "header": [1, 2],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    // single level should be maintained
+                    "default": {
+                        "header": [1, 2],
+                        "menu": [
+                            "recoSection",
+                            "categoryHeader",
+                            "marketingBlocks"
+                        ],
+                        "product": [
+                            "favs",
+                            "primaryTags",
+                            "secondaryTags"
+                        ],
+                        "cities_in_location_popup": [
+                             "bengaluru",
+                             "mumbai",
+                             "new delhi",
+                             "gurgaon"
+                        ],
+                        "outerElems": [
+                            "instagramSection",
+                            "widgets",
+                            "couponWidget",
+                            "exitIntent",
+                            "otherBrands"
+                        ],
+                        "userDropDownElements": [
+                            1, 2, 3, 4, 5, 6, 7, 8
+                        ]
+                    },
+                    "pages": {
+                       "header": [1] 
+                    }
+                },
+                "in-": {
+                    "faq": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "about": {
+                        "header": [2],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "product": {
+                        "header": [2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "cities_in_location_popup": [
+
+                        ]
+                    },
+                    "404": {
+                        "header": []
+                    },
+                    "amazon-auto-pay": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate-program": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "careers": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "checkout": {
+                        "header": [1],
+                        "userDropDownElements": [
+                        ],
+                        "contact": [
+                        ]
+                    },
+                    "contest": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "culture": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "data-security-update": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "download-app": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "fresh-club": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "freshmenu-checkout": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "referral-how-it-works": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "job-description": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "jobs": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "free-food": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "offers": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "order-created": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "contact": [
+                        ]
+                    },
+                    "current-orders": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "past-orders": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "press": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "privacy-policy": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "profile": {
+                        "header": [2],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "leftIndexElems": [
+                            "profile",
+                            "address"
+                        ]
+                    },
+                    "referafriend": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "referral-terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "resetPassword": {
+                        "header": [2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ]
+                    },
+                    "terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate-terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "terms-and-conditions-amazon-echo": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    // single level should be maintained
+                    "default": {
+                        "header": [2, 6, 7],
+                        "menu": [],
+                        "cities_in_location_popup": [],
+                        "product": [],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "outerElems": [
+                            "widgets"
+                        ],
+                    }
+                },
+                "wc-": {
+                    "faq": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "about": {
+                        "header": [2],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "product": {
+                        "header": [2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "cities_in_location_popup": [
+
+                        ]
+                    },
+                    "404": {
+                        "header": []
+                    },
+                    "amazon-auto-pay": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate-program": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "careers": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "checkout": {
+                        "header": [1],
+                        "userDropDownElements": [
+                        ],
+                        "contact": [
+                        ]
+                    },
+                    "contest": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "culture": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "data-security-update": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "download-app": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "fresh-club": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "freshmenu-checkout": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "referral-how-it-works": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "job-description": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "jobs": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "free-food": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "offers": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "order-created": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "contact": [
+                        ]
+                    },
+                    "current-orders": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "past-orders": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "press": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "privacy-policy": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "profile": {
+                        "header": [2],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "leftIndexElems": [
+                            "profile",
+                            "address"
+                        ]
+                    },
+                    "referafriend": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "referral-terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "resetPassword": {
+                        "header": [2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ]
+                    },
+                    "terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate-terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "terms-and-conditions-amazon-echo": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    // single level should be maintained
+                    "default": {
+                        "header": [2, 6, 7],
+                        "menu": [],
+                        "cities_in_location_popup": [],
+                        "product": [],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "outerElems": [
+                            "widgets"
+                        ],
+                    }
+                },
+                "bg-": {
+                    "faq": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "about": {
+                        "header": [2],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "product": {
+                        "header": [2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "cities_in_location_popup": [
+
+                        ]
+                    },
+                    "404": {
+                        "header": []
+                    },
+                    "amazon-auto-pay": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate-program": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "careers": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "checkout": {
+                        "header": [1],
+                        "userDropDownElements": [
+                        ],
+                        "contact": [
+                        ]
+                    },
+                    "contest": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "culture": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "data-security-update": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "download-app": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "fresh-club": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "freshmenu-checkout": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "referral-how-it-works": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "job-description": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "jobs": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "free-food": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "offers": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "order-created": {
+                        "header": [1, 2, 5],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "contact": [
+                        ]
+                    },
+                    "current-orders": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "past-orders": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "press": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "privacy-policy": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "profile": {
+                        "header": [2],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "leftIndexElems": [
+                            "profile",
+                            "address"
+                        ]
+                    },
+                    "referafriend": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "referral-terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "resetPassword": {
+                        "header": [2, 6, 7],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ]
+                    },
+                    "terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "corporate-terms-and-conditions": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    "terms-and-conditions-amazon-echo": {
+                        "header": [],
+                        "userDropDownElements": [
+                        ]
+                    },
+                    // single level should be maintained
+                    "default": {
+                        "header": [2, 6, 7],
+                        "menu": [],
+                        "cities_in_location_popup": [],
+                        "product": [],
+                        "userDropDownElements": [
+                            1, 2, 6, 8
+                        ],
+                        "outerElems": [
+                            "widgets"
+                        ],
+                    }
+                }
+            }
+        },
+        "MOBILE_APP": {
+            "brands": {
+                "fm-": {
+                    "default": {
+                        "header": [
+                            "filter"
+                        ],
+                        "menu": [
+                            "appDownloadBanner",
+                            "recoSection",
+                            "categoryHeader",
+                            "NotificationEnableWidget"
+                        ],
+                        "product": [
+                            "favs",
+                            "badge"
+                        ],
+                        "userDropDownElements": [
+                            "corporate",
+                            "blog",
+                            "freshmoney",
+                            "favourites"
+                        ],
+                        "outerElems": [
+                            "widgets",
+                            "customPopup"
+                        ]
+                    },
+                    "profile": {
+                        "body": [
+                            "freshmoney"
+                        ]
+                    },
+                    "resetPassword": {
+                        "header": [
+                            "freshmoney",
+                            "corporate",
+                            "favourites",
+                            "contactus",
+                            "blog",
+                            "aboutus"
+                        ]
+                    }
+                },
+                "in-": {
+                    "default": {
+                        "header": [],
+                        "menu": [],
+                        "product": [],
+                        "outerElems": [
+                            "widgets"
+                        ],
+                    },
+                    "profile": {
+                        "body": []
+
+                    },
+                    "resetPassword": {
+                        "header": []
+                    }
+                },
+                "wc-": {
+                    "default": {
+                        "header": [],
+                        "menu": [
+                            "categoryHeader"
+                        ],
+                        "product": [],
+                        "outerElems": [
+                            "widgets"
+                        ],
+                    },
+                    "profile": {
+                        "body": []
+
+                    },
+                    "resetPassword": {
+                        "header": []
+                    }
+                },
+                "bg-": {
+                    "default": {
+                        "header": [],
+                        "menu": [],
+                        "product": [],
+                        "outerElems": [
+                            "widgets"
+                        ],
+                    },
+                    "profile": {
+                        "body": []
+
+                    },
+                    "resetPassword": {
+                        "header": []
+                    }
+                }  
+            },
+            "thirdPartyApp": {
+               "phonepe": [
+                   
+               ],
+               "amazon_affiliate": [],
+               "flipkart": [],
+               "paytm": [],
+               "twid": [],
+               "xiaomi": []
+            }
+        }
+    }
+
+    var getCurrentPathName = function() {
+        var currentPathname = window.location.pathname.split('/');
+        if (currentPathname.length) {
+            if ((currentPathname[1] != 'pages' && currentPathname[1] != 'filter') && currentPathname.length > 2) {
+                currentPathname[1] = currentPathname[2];
+            }
+        }
+        return currentPathname[1];
+    }
+
+    var getHeaderElems = function() {
+        // calling this every time to hanlde SPA just incase.
+        var path = getCurrentPathName();
+        path = path && path.length ? path : "default";
+        var brand = fmBrand && fmBrand.length ? fmBrand : "fm-";
+        var channel = window.channel && window.channel.length ? window.channel : "WEBSITE";
+        if (showElems[channel]["brands"][brand][path]) {
+            if (showElems[channel]["brands"][brand][path]["header"]) {
+                return showElems[channel]["brands"][brand][path]["header"];
+            } else {
+                return [1];
+            }
+        } else {
+            return [];
+        }
+    }
+
+    var getDomElems = function(domElem) {
+        // calling this every time to hanlde spa just incase.
+        var path = getCurrentPathName();
+        path = path && path.length ? path : "default";
+        var brand = fmBrand && fmBrand.length ? fmBrand : "fm-";
+        var channel = window.channel && window.channel.length ? window.channel : "WEBSITE";
+        if (showElems[channel]["brands"][brand][path]) {
+            if (showElems[channel]["brands"][brand][path][domElem]) {
+                return showElems[channel]["brands"][brand][path][domElem]
+            } else {
+                return [];
+            }
+        } else {
+            return [];
+        }
+    }
+
+    var getTPAppDomElems = function(appName) {
+        if(showElems["MOBILE_APP"]["thirdPartyApp"][appName]) {
+            return showElems["MOBILE_APP"]["thirdPartyApp"][appName];
+        } else {
+            return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        }
+    }
+
+    return {
+        getHeaderElems: getHeaderElems,
+        getDomElems: getDomElems,
+        getTPAppDomElems: getTPAppDomElems
+    }
+})();
+</script>
+
+
+
+<script type="text/javascript">
+  window.fmIsMobileTemplate = true;
+  if (window.load_revx) {
+    window._atm_client_id = "6989";
+    window._atm_params = new Object;
+    // Pass in data parameters as applicable on each page
+    // If you want to pass in multiple values, use javascript array
+    // Example: _atm_params.id = ["123", "345"]
+    _atm_params.t = "r";
+    _atm_params.f = "v";
+    _atm_params.id = ""; //-- INSERT ID OF THE PRODUCT
+    _atm_params.c = ""; //-- INSERT ID OF THE CITY
+    _atm_params.cn = ""; //-- INSERT NAME OF THE CITY
+    _atm_params.custom_prop1 = ""; //-- INSERT CATEGORY NAME OF THE DISH
+    _atm_params.sprc = ""; //-- INSERT SELLING PRICE OF THE PRODUCT
+    _atm_params.channel = ""; //-- INSERT m FOR MOBILE web/d FOR DESKTOP
+    var ast=document.createElement('script'); ast.type="text/javascript";
+    ast.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//cdn.atomex.net/static/js/pxs/" + _atm_client_id + "/ast.js";
+    document.body.appendChild(ast);
+  }
+</script>
+<div>
+  <a href="../index.htm" style="display: block;margin: 15px auto;text-align: center;">
+    <img src="../pages/menu/images/header-logo-white1.1.svg" alt="Logo">
+  </a>
+  <a href="privacy-policy.htm" style="color: #4a4a4a;font-size: 14px;position: absolute;top: 20px;right: 15px;">Privacy</a>
+</div>
+<!-- RevX remarketing tag - End-->
+  <div class="login-screens modal" ng-class="{'display': loginPageScreens.showLoginScreen == true}" id="modal-login">
+    <form class="content login" style="width: 99.99% !important;max-width: 350px;margin: 0 auto;" novalidate="">
+      <a href="#" class="button modal-button facebook" ng-click="FB_auth();" ng-disabled="loginLoading" ng-class="{'disabled':loginLoading}">
+        <i class="fa fa-facebook"></i>
+        Log in with Facebook
+      </a>
+      <a href="#" class="button modal-button google" ng-click="GP_auth();" ng-disabled="loginLoading" ng-class="{'disabled':loginLoading}">
+        <i class="fa fa-google"></i>
+        Log in with Google
+      </a>
+      <div class="validation-error-msg" ng-class="{'enabled':socialAuthError}"><span>There has been an issues with your authentication please try again.</span></div>
+
+      <div class="or-divider">or</div>
+      <input type="text" name="email" placeholder="Email" ng-model="forms.login.user.email" ng-disabled="loginLoading" ng-class="{'disabled':loginLoading}" ng-keyup="validateUserEmail(forms.login.user, 'loginForm');">
+      <div class="validation-error-msg" ng-class="{'enabled':loginForm.email && businessPage}"><span>Please use your swissre email.</span></div>
+      <div class="validation-error-msg" ng-class="{'enabled':loginForm.email && !businessPage}"><span>Please enter a valid email address.</span></div>
+
+      <input type="password" name='password' placeholder="Password" ng-model="forms.login.user.password" ng-disabled="loginLoading" ng-class="{'disabled':loginLoading}" ng-keyup="validateUserPassword(forms.login.user, 'loginForm');">
+      <div class="validation-error-msg" ng-class="{'enabled':loginForm.password}"><span>Please enter a valid password. 4 characters min.</span></div>
+      <div class="secondary">
+        <a href="#" class="toggle-forgot-password" ng-click="openLoginPageScreen('showForgotPasswordScreen');">Forgot Password?</a>
+      </div>
+      <button ng-click="login(forms.login.user)" class="button modal-button submit" ng-disabled="loginLoading" ng-class="{'disabled':loginLoading}"><span> Log in</span>
+        <i class="fa fa-circle-o-notch fa-spin" ng-show="loginLoading" ng-disabled="loginLoading"></i>
+      </button>
+      <div class="validation-error-msg" ng-class="{'enabled':forms.login.errors}" ng-keyup="validateLoginForm(forms.login.user);"><span>{{forms.login.errors.data.message}}</span></div>
+
+      <hr>
+      Don't have an account? <a href="#" class="toggle-modal-login toggle-modal-register keep-overlay" ng-click="openLoginPageScreen('showRegisterEmailScreen');">Sign up</a>
+    </form>
+  </div>
+
+  <div class="login-screens modal" ng-class="{'display': loginPageScreens.showRegisterScreen == true}" id="modal-register">
+    <div class="content register" style="max-width: 350px;margin: 0 auto;">
+      <!-- <div ng-show = "displayOfferDetails && displayOfferDetails.amount">
+        <div class = "fm-signup-and-earn">
+          SIGN UP & EARN
+        </div>
+        <div class = "fm-signup-and-earn-secondary">
+          Get  <span class = "fm-amount">₹{{displayOfferDetails.amount}}</span> freshmoney on Sign up.
+        </div>
+      </div> -->
+      <a href="#" class="button modal-button facebook" id="GTM_fb_sign_up_button" ng-click="FB_auth();">
+        <i class="fa fa-facebook"></i>
+        Log in with Facebook
+      </a>
+      <a href="#" class="button modal-button google" id="GTM_gp_sign_up_button" ng-click="GP_auth();">
+        <i class="fa fa-google"></i>
+        Log in with Google
+      </a>
+      <div class="or-divider">or</div>
+      <div class="sign-up-with-email">
+        <a href="#" ng-click="GTM_Custom_Event({category:'Pop Up',action:'click',label:'Sign Up',value:1});openLoginPageScreen('showRegisterEmailScreen');" class="toggle-modal-register-email toggle-modal-register keep-overlay" id="GTM_submit_sign_up_button"><i class="fa fa-envelope-o"></i> Sign up with Email</a><br>
+        <p>By signing up, I agree to the following <br>
+            <a href="../terms-and-conditions.htm">Terms of Service</a> and
+            <a href="../privacy-policy.htm">Privacy Policy</a>.
+        </p>
+      </div>
+      <hr>
+        Already have a Freshmenu account? <a href="#" class="toggle-modal-register toggle-modal-login keep-overlay GTM_open_login_modal_button" ng-click="GTM_Custom_Event({category:'Pop Up',action:'click',label:'Sign Up',value:1});openLoginPageScreen('showLoginScreen');">Log in </a>
+    </div>
+  </div>
+
+  <div class="login-screens modal" ng-class="{'display': loginPageScreens.showRegisterEmailScreen == true}" id="modal-register-email" style="height: 100vh">
+    <form class="content register" style="width: 100% !important;max-width: 350px;margin: 0 auto;" novalidate="">
+      <a href="#" class="button modal-button facebook" ng-click="FB_auth();" ng-disabled="registerLoading" ng-class="{'disabled':registerLoading}">
+        <i class="fa fa-facebook"></i>
+        Sign in with Facebook
+      </a>
+      <a href="#" class="button modal-button google" ng-click="GP_auth();" ng-disabled="registerLoading" ng-class="{'disabled':registerLoading}">
+        <i class="fa fa-google"></i>
+        Sign in with Google
+      </a>
+      <div class="or-divider">or</div>
+      <input type="text" name="firstName" placeholder="First Name" ng-model="forms.register.user.firstName" ng-disabled="registerLoading" ng-class="{'disabled':registerLoading}" ng-keyup="validateUserFirstName(forms.register.user, 'registerForm');">
+      <div class="validation-error-msg" ng-class="{'enabled':registerForm.firstName}"><span>Please do not leave this field empty</span></div>
+
+      <input type="text" name="lastName" placeholder="Last Name" ng-model="forms.register.user.lastName" ng-disabled="registerLoading" ng-class="{'disabled':registerLoading}">
+      <input type="text" name="mobile" placeholder="10 digit Mobile Number" ng-model="forms.register.user.mobileNumber" ng-disabled="registerLoading" ng-class="{'disabled':registerLoading}" ng-keyup="validateUserMobileNumber(forms.register.user, 'registerForm');">
+      <div class="validation-error-msg" ng-class="{'enabled':registerForm.mobileNumber}"><span>Please enter a valid 10 digit mobile number.</span></div>
+
+      <input type="text" name="email" placeholder="Email" ng-model="forms.register.user.email" ng-disabled="registerLoading" ng-class="{'disabled':registerLoading}" ng-keyup="validateUserEmail(forms.register.user, 'registerForm');">
+      <div class="validation-error-msg" ng-class="{'enabled':registerForm.email}"><span>Please enter a valid email address.</span></div>
+
+      <input type="password" name="password" placeholder="Password" ng-model="forms.register.user.password" ng-disabled="registerLoading" ng-class="{'disabled':registerLoading}" ng-keyup="validateUserPassword(forms.register.user, 'registerForm');">
+      <div class="validation-error-msg" ng-class="{'enabled':registerForm.password}"><span>Please enter a valid password. 4 characters min.</span></div>
+
+      <button type="submit" class="button modal-button submit" ng-click="register(forms.register.user)" ng-disabled="registerLoading">
+        <span ng-show="!registerLoading"> Sign up</span>
+        <i class="fa fa-spinner fa-spin" ng-show="registerLoading"></i>
+      </button>
+      <div class="validation-error-msg server-error" ng-class="{'enabled':forms.register.errors.code}"><span>{{forms.register.errors.message}}</span></div>
+      <hr>
+      Already have a Freshmenu account? <a href="#" class="toggle-modal-register-email toggle-modal-login keep-overlay" ng-click="openLoginPageScreen('showLoginScreen');">Log in </a>
+    </form>
+  </div>
+
+  <div class="login-screens modal" ng-class="{'display': loginPageScreens.showForgotPasswordScreen == true}" id="forgot-password">
+    <form name="forgotPasswordForm" class="content login" style="max-width: 350px;margin: 0 auto;" novalidate="">
+      <h4 style="text-align: center; margin-top: 0px;">Forgot your password?</h4>
+      <div class="form-group">
+        <input type="text" ng-pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" name="email" required="" placeholder="Email" ng-model="forms.forgotPassword.user.email">
+      </div>
+      <div class="validation-error-msg forgot-password-error" ng-class="{'enabled':forms.forgotPassword.iSError}"><span>{{forms.forgotPassword.errors.data.message}}</span></div>
+      <div class="validation-error-msg forgot-password-success" ng-class="{'enabled':forms.forgotPassword.success}"><span>Please check your email for further instructions.</span></div>
+
+      <p>Enter your email address and we'll send you an email to reset your password.</p>
+      <button type="submit" class="btn-action btn-green" ng-class="{'disabled': forgotPasswordForm.$invalid}" ng-disabled="forgotPasswordForm.$invalid" ng-click="sendResetPasswordDetails(forms.forgotPassword.user)">
+        <i class="fa fa-circle-o-notch fa-spin fm-send-email-loader" ng-show="sendingUserPasswordDetails"></i>
+        <span ng-if="!forms.forgotPassword.success && !sendingUserPasswordDetails">Send Email</span>
+        <span ng-if="!forms.forgotPassword.success && sendingUserPasswordDetails">Sending..</span>
+        <span ng-if="forms.forgotPassword.success && !sendingUserPasswordDetails">Send Again</span>
+      </button>
+    </form>
+  </div>
+  <script type="application/javascript" src="../pages/common/js/vendor2.min.js"></script>
+  <script>
+
+  var loadJS = function(src, cb) {
+      var ref = document.getElementsByTagName("script")[0];
+      var script = document.createElement("script");
+      script.src = src;
+      script.async = true;
+      script.crossorigin = "anonymous";
+      ref.parentNode.insertBefore(script, ref);
+      if (cb && typeof (cb) === "function") {
+          script.onload = cb;
+      }
+      return script;
+  };
+
+  // Load the SDK asynchronously
+  function loadGoogleJS() {
+    loadJS(window.googlePlaceURL || "https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyDwKTZiimewmoTkImnXeUKt65LfZsCKu0Q");
+  };
+
+  // Load the SDK asynchronously
+  function loadMenuMinJs() {
+     loadJS(window.menuMinURL);
+  };
+
+  window.loadSocialScripts = function() {
+    //Facebook
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer',"GTM-5DGF3C");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        //appId      : '985257381565066', //local appId
+        appId: window.fbAppId,
+        cookie     : true,  // enable cookies to allow the server to access
+                            // the session
+        xfbml      : true,  // parse social plugins on this page
+        version    : 'v2.5' // use graph api version 2.5
+      });
+    };
+
+
+    // Load the SDK asynchronously
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    // Load the SDK asynchronously
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://apis.google.com/js/client:platform.js";
+      js.addEventListener('load', function (e) { start();}, false);
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'fm-google-api'));
+
+    // Google Plus
+    var auth2 = null;
+
+    function start() {
+       var gapiCb = function(){
+        gapi.load('auth2');
+      };
+
+      var timeOutGapiCb = function(){
+        if(gapi && gapi.client){
+          gapiCb();
+        }else{
+          setTimeout(function(){
+            timeOutGapiCb();
+          }, 500);
+        };
+      };
+      timeOutGapiCb();
+    };
+  };
+</script>
+
+  <!--<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>-->
+
+
+
+	<script type="application/javascript" src="../pages/login/devices/mobile/login.min.js?v=1639752661696"></script>
+<script type="application/javascript" src="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyDQLqZdmgvXc7IN6HO299shwpqs1HammFI"></script>
+    
+<script>
+
+        window.googlePlaceURL = 'https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyDQLqZdmgvXc7IN6HO299shwpqs1HammFI';
+        window.menuMinURL = "/pages/menu/devices/mobile/menu.min.js?v=1639752661696";
+    </script>
+
+
+  <script type="text/javascript">
+    window.loadSocialScripts();
+  </script>
+</body>
+</html>

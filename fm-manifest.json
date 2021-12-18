@@ -1,0 +1,30 @@
+{
+   "name": "Freshmenu",
+   "short_name": "Freshmenu",
+   "icons": [
+      {
+         "src": "images/logo_192.png",
+         "type": "image/png",
+         "sizes": "192x192"
+      },{
+         "src": "/images/logo_256.png",
+         "type": "image/png",
+         "sizes": "256x256"
+      },{
+         "src": "/images/logo_384.png",
+         "type": "image/png",
+         "sizes": "384x384"
+      },{
+         "src": "/images/logo_512.png",
+         "type": "image/png",
+         "sizes": "512x512"
+      }
+   ],
+   "start_url": "/",
+   "scope": "/",
+   "gcm_sender_id": "671226836224",
+   "theme_color": "#f7f7f7",
+   "background_color": "#fff",
+   "display": "standalone",
+   "orientation": "portrait"
+}

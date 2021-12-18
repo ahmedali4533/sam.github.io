@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>88A54F0A-B2A6-498D-B6F8-61386544E7BA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Catalog-2.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="21.2-Mobile---Categories-popover" transform="translate(-219.000000, -119.000000)" fill="#E85826">
+            <g id="Filter-Popover" filter="url(#filter-1)" transform="translate(55.000000, 90.000000)">
+                <path d="M170.735884,44.2124203 L166.326375,39.7257902 C165.90562,39.3435958 165.88879,38.695527 166.292714,38.2800982 C166.679809,37.8646695 167.336186,37.8480524 167.756941,38.2468639 L170.988337,40.5234133 C171.173469,40.6895848 171.459582,40.6563505 171.611054,40.4569447 L179.26879,31.1181071 C179.605394,30.6694441 180.261771,30.5697412 180.716186,30.9187013 C181.170601,31.2510443 181.271583,31.8991131 180.918149,32.3477761 L172.267431,44.0794832 C172.082299,44.3121232 171.813016,44.4616776 171.526903,44.4782947 C171.493243,44.4949119 171.476413,44.4949119 171.442752,44.4949119 C171.173469,44.4949119 170.921016,44.395209 170.735884,44.2124203 Z" id="ic_tick"></path>
+            </g>
+        </g>
+    </g>
+</svg>
